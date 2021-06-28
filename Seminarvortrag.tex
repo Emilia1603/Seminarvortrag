@@ -4,6 +4,7 @@
 \usepackage{biblatex}
 \usepackage{ mathrsfs }
 \usepackage{mathtools}
+\usepackage{amsmath}
 
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
@@ -36,7 +37,7 @@
 
 \begin{frame}
 \frametitle{Gliederung}
-\listofframes
+\tableofcontents
 \end{frame}
 
 \begin{frame}
@@ -49,7 +50,7 @@
 
 \begin{frame}
 
-\frametitle{SM Wiederholung - Eichsektor}
+\frametitle{SM Wiederholung- Eichsektor}
 \begin{itemize}
 \item Dynamik der Eichbosonen steckt in Form von Feldstärketensoren in der Lagrangedichte $\mathscr{L}_{\text{Eich}}$
 \item Die Wechselwirkung der Eichbosonen mit Fermionen/Skalaren steht in der kovarianten Ableitung $\mathscr{D}_{\mu}$
@@ -150,7 +151,11 @@ Dabei entsprechen $\Phi_{j}$  normierten reellen Feldern wobei $j \in [1,4] $
 
 \begin{frame}
 \frametitle{SM Wiederholung - Higgs Mechanismus }
-Da wir wissen das der Vakuumszustand im Potential Minimum liegen muss, erhalten wir für den Vakuumserwartungswert $v=\sqrt{\frac{\mu^2}{\lambda}}$. Wir definieren unsere Felder so, dass die Erwartungswerte wie folgt aussehen $\langle \Phi_{3}\rangle=v$ und  $\langle \Phi_{1}\rangle=\langle \Phi_{2}\rangle=\langle \Phi_{2}\rangle=0$ . Zusätzlich addieren wir zu $\Phi_{3}$ ein Feld $h$ welches einen verschwindenden Erwartungswert hat. Umgeformt nach $\mu$ und eingesetzt in unser Potential erhalten wir:
+\begin{itemize}
+\item Da wir wissen das der Vakuumszustand im Potential Minimum liegen muss, erhalten wir für den Vakuumserwartungswert $v=\sqrt{\frac{\mu^2}{\lambda}}$
+ \item Wir definieren unsere Felder so, dass die Erwartungswerte wie folgt aussehen $\langle \Phi_{3}\rangle=v$ und  $\langle \Phi_{1}\rangle=\langle \Phi_{2}\rangle=\langle \Phi_{2}\rangle=0$ 
+ \item Zusätzlich addieren wir zu $\Phi_{3}$ ein Feld $h$ welches einen verschwindenden Erwartungswert hat. Umgeformt nach $\mu$ und eingesetzt in unser Potential erhalten wir:
+ \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -158,21 +163,97 @@ Da wir wissen das der Vakuumszustand im Potential Minimum liegen muss, erhalten 
 Diese Form des Potentials wollen wir nun nutzen um Sie in eine Form der Massen und Wechselwirkung des Higgsteilchens umzuschreiben:
 \begin{block}{Allgemeine Form der Massenmatrizen}
 \begin{equation}
-\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)^{\dagger} \left( \begin{array}{rrr} M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24} \\ M_{31}&M_{32}&M_{33}&M_{34}\\ M_{41}&M_{42}&M_{43}&M_{44}\end{array}\right) \left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)
+\text{V}(\Phi)=\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)^{\dagger}  \begin{pmatrix} M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24} \\ M_{31}&M_{32}&M_{33}&M_{34}\\ M_{41}&M_{42}&M_{43}&M_{44}\end{pmatrix}\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right) + \text{h.O.}
 \end{equation}
 \end{block}
 \end{frame} 
 
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+Mit Blick auf unsere Rechnung folgen dann ausschließlich Massen für das Feld mit nichtverschwindendem Erwartungswert:
 
 
 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Eichbosonenmasse}
+Um diese Massen zu bekommen, betrachten wir den Eichkinetischen Term: 
+\begin{block}{Eichkinetischerterm}
+\begin{equation}
+\begin{split}
+\mathscr{L}\supset (\mathscr{D}_{\mu}\Phi)^{\dagger}(\mathscr{D}^{\mu}\Phi) \\ = \frac{1}{2} (\partial_{\mu} h)(\partial^{\mu}h)\\+\frac{1}{8} \text{g}^{2}(v+h)^{2} (\text{W}_{\mu}^{1}-\text{W}_{\mu}^{2})(\text{W}^{\mu1}\\+\text{W}^{\mu2})+\frac{1}{8}(v+h)^{2}(\text{g}\text{W}^{3}_{\mu}-\text{g}\prime \mathscr{B}_{\mu})^{2}
+\end{split}
+\end{equation}
+\end{block}
+
+
+
+
+\end{frame}
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionenmassse}
+Beispiel anhand der Quark Massen, um bei den Leptonen das Neutrinomassenproblem zu umgehen. Man verwende dabei eine unitäre Eichung gemäß $\Phi^{\dagger}\text{Q}_{\text{L}}=\left(  0, \frac{v+h}{\sqrt{2}} \right)\left( \begin{array}{c} \text{u}_{\text{L}}\\ \text{d}_{\text{L}} \end{array}\right) $
+\begin{block}{Yukawa Term}
+\begin{equation}
+\mathscr{L}_{\text{Yukawa}}\supset -[\text{y}_{\text{d}}\overline{\text{d}_{\text{R}}} \Phi^{\dagger}\text{Q}_{\text{L}}+\text{y}_{\text{d}}^{*} \overline{\text{Q}_{\text{L}}}\Phi \text{d}_{\text{R}}]
+\end{equation}
+\end{block}
+Damit erhalten wir für unser Beispiel, wobei quadratischer Term hier die Masse des down quarks angibt: 
+\begin{equation}
+\mathscr{L}_{\text{Yukawa}}\supset -\frac{\text{y}_{\text{d}}v}{\sqrt{2}}\overline{\text{d}} \text{d} - \frac{\text{y}_{\text{d}}}{\sqrt{2}}h\overline{\text{d}} \text{d} 
+\end{equation}
+\end{frame}
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionenmassse}
+Um die Masse des up Quarks zu bekommen, muss in unitärer Eichung die Kopplung mit diesem stattfinden können $\rightarrow$ Verwendung des konjugierten Higgs Skalars  $\tilde{\Phi}=\left( \begin{array}{c} \Phi^{0*}\\ -\Phi^{+*} \end{array}\right)$. Diese Vorgehensweise gilt für die einzelnen Generationen von Quarks. Das SM besitzt jedoch 3 von ihnen, weshalb die allgemeine Form wie folgt aussieht:
+\begin{block}{Massenanteil Quarks}
+\begin{equation}
+\mathscr{L}_{\text{Yukawa}}^{\text{q}}=- \sum_{i=1}^{3} \sum_{j=1}^{3} [\text{y}^{\text{u}}_{ij}\overline{\text{u}_{\text{Ri}}} \tilde{\Phi}^{\dagger}\text{Q}_{\text{Lj}}+\text{y}^{\text{d}}_{ij} \overline{\text{d}_{\text{Ri}}}\Phi^{\dagger} \text{Q}_{\text{Lj}}]+h.c.
+\end{equation}
+\end{block}
+Dabei entspricht $\text{y}^{\text{u}}_{ij}$ der Yukawa Matrix und $\text{Q}_{\text{Lj}}$, $\text{u}_{\text{Ri}}$ und $\text{d}_{\text{Ri}}$ für die drei Generationen wobei $j \in [1,3]$.
+Diese Form wollen wir wieder in eine Form der Massenmatrizen umschreiben.
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionenmassse}
+\end{frame}
+\begin{frame}
+\frametitle{Motivation zu Erweiterten Higgs Sektoren}
+\begin{itemize}
+\item Wir haben alle Massen berechnet 
+\item Aus Lagrange konnten wir auch alle theoretisch möglichen WW ablesen 
+\item Mit diesen Größen können nun Zerfallsbreiten, Wirkungsquerschnitte und Verzweigungsverhältnisse berechnet werden
+\item Gibt es nun experimentelle Abweichungen von den Vorhersagen $\rightarrow$ Erweiterung
+\item Erweiterung die Randbedingung und Symmetrie des SM gehorcht aber zusätzliche Zerfälle, WW erlauben würde $\rightarrow$ hoffen auf Bestätigung durch experiment
+\end{itemize}
+\end{frame}
 
 
 \begin{frame}
 \frametitle{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}
 \end{frame}
+
+\begin{frame}
+\frametitle{Zusammenfassung}
+\begin{itemize}
+\item Erweiterte Higgs Sektoren können sowohl aus experimenteller als auch aus theoretischer Sicht sinnvoll sein
+\item Bei Erweiterungen sind Randbedingungen durch experimentelle Erkenntnisse gegeben 
+\end{itemize}
+
+\end{frame}
+
 \begin{frame} 
 \frametitle{Quellen}
+\section{Wiederholung SM}
+\subsection{Wiederholung Eichbosonensektor}
+\subsection{Wiederholung Fermionsektor}
+\subsection{Wiederholung Higgssektor}
+\section{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}
 \printbibliography
 \end{frame}
 
