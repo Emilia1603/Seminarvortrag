@@ -1,0 +1,179 @@
+
+
+\documentclass{beamer} 
+\usepackage{biblatex}
+\usepackage{ mathrsfs }
+\usepackage{mathtools}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+
+
+\addbibresource{Seminarvortrag.bib}
+\makeatletter
+\newcommand\listofframes{\@starttoc{lbf}}
+\makeatother
+
+\addtobeamertemplate{frametitle}{}{%
+  \addcontentsline{lbf}{section}{\protect\makebox[2em][l]{%
+    \protect\usebeamercolor[fg]{structure}\insertframenumber\hfill}%
+  \insertframetitle\par}%
+}
+
+\setbeamercolor{block body}{bg=structure!10}
+\setbeamercolor{block title}{bg=structure!20}
+
+\title{Erweiterte Higgs Sektoren}
+\author{Seminarvortrag - Emilia Welte}
+\date{ \today}
+
+
+\begin{document}
+\begin{frame} 
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Gliederung}
+\listofframes
+\end{frame}
+
+\begin{frame}
+\frametitle{Zu klärende Fragen}
+\begin{itemize}
+\item Was sind erweiterte Higgs Sektoren ?
+\item Warum braucht man erweiterte Higgs Sektoren ?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+
+\frametitle{SM Wiederholung - Eichsektor}
+\begin{itemize}
+\item Dynamik der Eichbosonen steckt in Form von Feldstärketensoren in der Lagrangedichte $\mathscr{L}_{\text{Eich}}$
+\item Die Wechselwirkung der Eichbosonen mit Fermionen/Skalaren steht in der kovarianten Ableitung $\mathscr{D}_{\mu}$
+\end{itemize}
+
+\begin{block}{SM Eichstruktur}
+\begin{equation}
+\text{SU}(3)_{C}\times \text{SU}(2)_{L} \times \text{U}(1)_{Y} 
+\end{equation}
+\end{block}
+
+\begin{itemize}
+\item Massenterme treten in quadratischer Ordnung der Felder auf, dies ist nicht mehr Eichinvariant nach Einsetzen in $\mathscr{L}_{\text{Eich}}$ $\rightarrow$ ungebrochene Eichsymmetrie führt zu masselosen Eichbosonen
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionsektor}
+\begin{itemize}
+\item SM enthält 3 Generationen von händigen Fermionen Feldern mit jeweils unterschiedlichen Transformationseigenschaften 
+\end{itemize}
+\begin{block}{Allg. Fermionen Feld Lagrange}
+
+\begin{equation}
+\mathscr{L}_{\text{Fermion}}=\overline{\Psi} i \partial_{\mu} \gamma^{\mu} \Psi -\text{m}\overline{\Psi} \Psi 
+\end{equation}
+\end{block}
+Dabei entspricht erster Term dem kinetischen Anteil und zweiter Term massen Anteil.  $\gamma^{\mu}$ entsprich den Dirac-Matrizen.
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item Unter Ausnutzung der Projektionsoperatoren für links- und rechtshändige Fermionen ($1=\text{P}_{R}^{2}+ \text{P}_{L}^{2}$) separiert der der kinetische Teil in händige Anteile und ist Eichinvariant 
+
+\end{itemize}
+\begin{block}{kinetischer Anteil}
+\begin{equation}
+\overline{\Psi} i \partial_{\mu} \gamma^{\mu} \Psi  \rightarrow \overline{\Psi}_{L} i \partial_{\mu} \gamma^{\mu} \Psi_{L} +\overline{\Psi}_{R} i \partial_{\mu} \gamma^{\mu} \Psi_{R} 
+\end{equation}
+\end{block}
+
+\begin{itemize}
+\item Unter Ausnutzung derselben Relation von den Projektionsoperatoren sieht man am Massenterm, dass hierbei die händigen Zustände mischen. Dieser ist also nicht Eichinvariant.
+\end{itemize}
+
+\begin{block}{Massen Term}
+\begin{equation}
+\text{m}\overline{\Psi} \Psi  \rightarrow \text{m}\overline{\Psi}_{R} \Psi_{L} +\text{m}\overline{\Psi}_{L} \Psi_{R} 
+\end{equation}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Zusammenfassung}
+\begin{itemize}
+\item Der Eichbosonen Masseterm ist nicht Eichinvariant und kann nicht ohne Weiteres in die Lagrangedichte  eingesetzt werden $\rightarrow$ Ohne Symmetriebrechung sind Eichbosonen also Masselos
+\item Der Fermion Masseterm ist nicht Eichinvariant und kann wie der Bosonen Trem  nicht ohne Weiteres in die Lagrangedichte  eingesetzt werden $\rightarrow$ Ohne Symmetriebrechung sind Fermionen also Masselos
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Neuer Bestandteil der experimentell bestätigte Bosonenmassen Erklärt $\rightarrow$ Einführung eines skalaren $\text{SU}(2)_{L}$-Duplett Feldes was durch Higgs Mechanismus zu spontaner $\text{SU}(2)_{L}\times\text{U}(1)_{Y}$ Symmetriebrechung führt
+\item Duplett hat Hypercharge $Y=\frac{1}{2}$ und ist ein Farb Singlett 
+\end{itemize}
+
+\begin{block}{Higgs Duplett}
+\begin{equation}
+\Phi=\left( \begin{array}{c} \Phi^{0}\\ \Phi^{+} \end{array}\right)= \frac{1}{\sqrt{2}}\left( \begin{array}{c} \Phi_{1}+i\Phi_{2}\\ \Phi_{3}+i\Phi_{4} \end{array}\right)
+\end{equation}
+\end{block}
+Dabei entsprechen $\Phi_{j}$  normierten reellen Feldern wobei $j \in [1,4] $
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Unsere SM Lagrangedichte sieht dann wie folgt aus
+\end{itemize}
+\begin{block}{SM Higgs Lagrangedichte}
+\begin{equation}
+\mathscr{L}_{\Phi}=(\mathscr{D}_{\mu}\Phi)^{\dagger}(\mathscr{D}^{\mu}\Phi) - \text{V}(\Phi) + \mathscr{L}_{\text{Yukawa}}
+\end{equation}
+\end{block}
+\begin{itemize}
+\item Die Allgemeine Form eines Higgs Potentials könnte wie folgt aussehen 
+\end{itemize}
+\begin{equation}
+ \text{V}(\Phi)=-\mu^{2} \Phi^{\dagger}\Phi +\lambda ( \Phi^{\dagger}\Phi)^{2}
+\end{equation}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item ist $-\mu^{2}<0$ und $\lambda>0$  das das Minimum des Potentials weg von $|\Phi|=0$ womit Vakuums/minimums Energie nicht mehr invariant unter $\text{SU}(2)_{L}\times\text{U}(1)_{Y}$ Symmetrie $\rightarrow$ Eich Symmetrie ist spontan gebrochen
+\item sind beide größen positiv hat das Potential sein minimum bei  $|\Phi|=0$  und ist parabelförmig, elektroschwache Symmetrie ist dann ungebrochen
+\item im Falle $\lambda<0$ ist das Potential ungebunden und es gibt keinen stabilen Vakuumszustand
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+Da wir wissen das der Vakuumszustand im Potential Minimum liegen muss, erhalten wir für den Vakuumserwartungswert $v=\sqrt{\frac{\mu^2}{\lambda}}$. Wir definieren unsere Felder so, dass die Erwartungswerte wie folgt aussehen $\langle \Phi_{3}\rangle=v$ und  $\langle \Phi_{1}\rangle=\langle \Phi_{2}\rangle=\langle \Phi_{2}\rangle=0$ . Zusätzlich addieren wir zu $\Phi_{3}$ ein Feld $h$ welches einen verschwindenden Erwartungswert hat. Umgeformt nach $\mu$ und eingesetzt in unser Potential erhalten wir:
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+Diese Form des Potentials wollen wir nun nutzen um Sie in eine Form der Massen und Wechselwirkung des Higgsteilchens umzuschreiben:
+\begin{block}{Allgemeine Form der Massenmatrizen}
+\begin{equation}
+\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)^{\dagger} \left( \begin{array}{rrr} M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24} \\ M_{31}&M_{32}&M_{33}&M_{34}\\ M_{41}&M_{42}&M_{43}&M_{44}\end{array}\right) \left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)
+\end{equation}
+\end{block}
+\end{frame} 
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}
+\end{frame}
+\begin{frame} 
+\frametitle{Quellen}
+\printbibliography
+\end{frame}
+
+ \end{document}
