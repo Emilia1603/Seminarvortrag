@@ -1,12 +1,18 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Wiederholung SM}{29}{0}{1}
+\beamer@sectionintoc {1}{Wiederholung SM}{28}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{1}{Wiederholung Eichbosonensektor}{29}{0}{1}
+\beamer@subsectionintoc {1}{1}{Wiederholung Eichbosonensektor}{28}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{2}{Wiederholung Fermionsektor}{29}{0}{1}
+\beamer@subsectionintoc {1}{2}{Wiederholung Fermionsektor}{28}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{3}{Wiederholung Higgssektor}{29}{0}{1}
+\beamer@subsectionintoc {1}{3}{Wiederholung Higgssektor}{28}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}{29}{0}{2}
+\beamer@sectionintoc {2}{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}{28}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{1}{Goldsone Bosonen}{28}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{2}{Eichbosonen Massenerzeugung}{28}{0}{2}
+\defcounter {refsection}{0}\relax 
+\beamer@subsectionintoc {2}{3}{Fermionen Massenerzeugung und FCNCs}{28}{0}{2}
