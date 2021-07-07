@@ -1,0 +1,424 @@
+
+
+\documentclass[xcolor=dvipsnames]{beamer} 
+%\usepackage{biblatex}
+\usepackage{ mathrsfs }
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage[style=authortitle,backend=biber,sorting=nyt,date=short]{biblatex}
+%\usepackage[backend=biber]{biblatex}
+%\addbibresource{Seminarvortrag.bib}
+\bibliography{Seminarvortrag.bib}
+
+\makeatletter
+\newcommand\listofframes{\@starttoc{lbf}}
+\makeatother
+
+\addtobeamertemplate{frametitle}{}{%
+  \addcontentsline{lbf}{section}{\protect\makebox[2em][l]{%
+    \protect\usebeamercolor[fg]{structure}\insertframenumber\hfill}%
+  \insertframetitle\par}%
+}
+
+\setbeamercolor{block body}{bg=structure!10}
+\setbeamercolor{block title}{bg=structure!20}
+
+\title{Erweiterte Higgs Sektoren}
+\author{Seminarvortrag - Emilia Welte}
+\date{ \today}
+
+
+
+\begin{document}
+\begin{frame} 
+\titlepage
+\end{frame}
+
+
+\begin{frame}[t]
+\frametitle{Gliederung}
+\tableofcontents
+\end{frame}
+
+\begin{frame}
+\frametitle{Zu klärende Fragen}
+\begin{itemize}
+\item Was sind erweiterte Higgs Sektoren ?
+\item Warum braucht man erweiterte Higgs Sektoren ?
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+
+\frametitle{SM Wiederholung- Eichsektor}
+\begin{itemize}
+\item Dynamik der Eichbosonen steckt in Form von Feldstärketensoren in der Lagrangedichte $\mathscr{L}_{\text{Eich}}$
+\item Die Wechselwirkung der Eichbosonen mit Fermionen/Skalaren steht in der kovarianten Ableitung $\mathscr{D}_{\mu}$
+\end{itemize}
+
+\begin{block}{SM Eichstruktur}
+\begin{equation*}
+\text{SU}(3)_{C}\times \text{SU}(2)_{L} \times \text{U}(1)_{Y} 
+\end{equation*}
+\end{block}
+
+\begin{itemize}
+\item Massenterme: quadratische Ordnung der Felder (Einsetzen von Eichtrafo der Felder in  $\mathscr{L}_{\text{Eich}}$)   $\rightarrow$ ungebrochene Eichsymmetrie führt zu masselosen Eichbosonen
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionsektor}
+\begin{itemize}
+\item SM: 3 Generationen von händigen Fermionen (Händigkeit besitzt jeweils unterschiedliche Transformationseigenschaften)
+\end{itemize}
+\begin{block}{Allg. Fermionen Feld Lagrange}
+
+\begin{equation*}
+\mathscr{L}_{\text{Fermion}}=\overline{\Psi} i \partial_{\mu} \gamma^{\mu} \Psi -\text{m}\overline{\Psi} \Psi 
+\end{equation*}
+\end{block}
+\textcolor{Blue}{erster Term: kinetischen Anteil, zweiter Term: massen Anteil,  $\gamma^{\mu}$: Dirac-Matrizen}
+\end{frame}
+\begin{frame}
+\begin{itemize}
+\item Nutzung der Projektionsoperatoren für links- und rechtshändige Fermionen ($1=\text{P}_{R}^{2}+ \text{P}_{L}^{2}$) $\rightarrow $ separation händiger Fermionen im kinetischen Term (bleibt Eichinvariant)
+
+\end{itemize}
+\begin{block}{kinetischer Anteil}
+\begin{equation*}
+\overline{\Psi} i \partial_{\mu} \gamma^{\mu} \Psi  \rightarrow \overline{\Psi}_{L} i \partial_{\mu} \gamma^{\mu} \Psi_{L} +\overline{\Psi}_{R} i \partial_{\mu} \gamma^{\mu} \Psi_{R} 
+\end{equation*}
+\end{block}
+
+\begin{itemize}
+\item Analoge Vorgehensweise $\rightarrow$ mischen von  händige Zustände im Massenterm  (Eichinvarianz verletzt)
+\end{itemize}
+
+\begin{block}{Massen Term}
+\begin{equation*}
+\text{m}\overline{\Psi} \Psi  \rightarrow \text{m}\overline{\Psi}_{R} \Psi_{L} +\text{m}\overline{\Psi}_{L} \Psi_{R} 
+\end{equation*}
+\end{block}
+\end{frame}
+\begin{frame}
+\frametitle{Zusammenfassung}
+\begin{itemize}
+\item Der Eichbosonen Massenterm ist nicht Eichinvariant   $\rightarrow$ Ohne Symmetriebrechung sind Eichbosonen masselos
+\item Der Fermion Massenterm ist nicht Eichinvariant  $\rightarrow$ Ohne Symmetriebrechung sind Fermionen masselos
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Neuer Bestandteil der experimentell bestätigte Bosonen-/Fermionenmassen erklärt $\rightarrow$ Einführung eines skalaren $\text{SU}(2)_{L}$-Dublett Feldes was durch Higgs Mechanismus zu spontaner $\text{SU}(2)_{L}\times\text{U}(1)_{Y}$ Symmetriebrechung führt
+\item Dublett hat Hypercharge $Y=\frac{1}{2}$ und ist ein farb Singlett 
+\end{itemize}
+
+\begin{block}{Higgs Dublett}
+\begin{equation*}
+\Phi=\left( \begin{array}{c} \Phi^{+}\\ \Phi^{0} \end{array}\right)= \frac{1}{\sqrt{2}}\left( \begin{array}{c} \Phi_{1}+i\Phi_{2}\\ \Phi_{3}+i\Phi_{4} \end{array}\right)
+\end{equation*}
+\end{block}
+\textcolor{Blue}{$\Phi_{j}$:  normierte reelle  Felder mit  $j \in [1,4] $}
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+
+\begin{block}{SM Higgs Lagrangedichte}
+\begin{equation*}
+\mathscr{L}_{\Phi}=(\mathscr{D}_{\mu}\Phi)^{\dagger}(\mathscr{D}^{\mu}\Phi) - \text{V}(\Phi) + \mathscr{L}_{\text{Yukawa}}
+\end{equation*}
+\end{block}
+\begin{itemize}
+\item  Allgemeine Form eines Higgs Potentials könnte wie folgt aussehen:
+\end{itemize}
+\begin{equation*}
+ \text{V}(\Phi)=-\mu^{2} \Phi^{\dagger}\Phi +\lambda ( \Phi^{\dagger}\Phi)^{2}
+\end{equation*}
+
+\begin{itemize}
+\item ist $-\mu^{2}<0$ und $\lambda>0$  $\rightarrow$ Minimum des Potentials weg von $|\Phi|=0$ $\rightarrow$ Vakuums-/Minimumsenergie nicht mehr invariant unter Eichsymmetrie $\rightarrow$ Eichsymmetrie ist spontan gebrochen
+\item sind beide größen positiv hat das Potential sein minimum bei  $|\Phi|=0$ $ \rightarrow$ elektroschwache Symmetrie ungebrochen
+\item im Falle $\lambda<0$ ist das Potential ungebunden und es gibt keinen stabilen Vakuumszustand
+\end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Vakuumszustand muss im  Potential Minimum liegen $\rightarrow$ Vakuumserwartungswert $v=\sqrt{\frac{\mu^2}{\lambda}}$
+ \item Wir definieren unsere Felder so, dass die Erwartungswerte wie folgt aussehen $\langle \Phi_{3}\rangle=v$ und  $\langle \Phi_{1}\rangle=\langle \Phi_{2}\rangle=\langle \Phi_{2}\rangle=0$ 
+ \item Zusätzlich addieren wir zu $\Phi_{3}$ ein Feld $h$ welches einen verschwindenden Erwartungswert hat:
+ \end{itemize}
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Diese Form des Potentials wollen wir nun nutzen um Sie in eine Form der Massen und Wechselwirkung des Higgsteilchens umzuschreiben:
+\end{itemize}
+\begin{block}{Allgemeine Form der Massenmatrizen}
+\begin{equation*}
+\text{V}(\Phi)=\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right)^{\dagger}  \begin{pmatrix} M_{11}&M_{12}&M_{13}&M_{14}\\M_{21}&M_{22}&M_{23}&M_{24} \\ M_{31}&M_{32}&M_{33}&M_{34}\\ M_{41}&M_{42}&M_{43}&M_{44}\end{pmatrix}\left( \begin{array}{c} \Phi_{1}\\ \Phi_{2} \\ \Phi_{3} \\ \Phi_{4} \end{array}\right) + \text{h.O.}
+\end{equation*}
+\end{block}
+\end{frame} 
+
+\begin{frame}[t]
+\frametitle{SM Wiederholung - Higgs Mechanismus }
+\begin{itemize}
+\item Wir erhalten ausschließlich Massen für das Feld mit nichtverschwindendem Erwartungswert (in unserem Fall $\Phi_{3}$)
+\end{itemize}
+
+
+
+
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{SM Wiederholung - Eichbosonenmasse}
+\begin{itemize}
+\item Für die Eichbosonenmassen betrachten wir den kinetischen Term unseres Higgs Dubletts 
+\end{itemize}
+\begin{block}{kinetischer Term des Higgs Dubletts}
+\begin{flalign*}
+%\begin{split}
+&\mathscr{L}\supset (\mathscr{D}_{\mu}\Phi)^{\dagger}(\mathscr{D}^{\mu}\Phi) \\& = \frac{1}{2} (\partial_{\mu} h)(\partial^{\mu}h)\\&+\frac{1}{8} \text{g}^{2}(v+h)^{2} (\text{W}_{\mu}^{1}-\text{W}_{\mu}^{2})(\text{W}^{\mu1}+\text{W}^{\mu2})\\&+\frac{1}{8}(v+h)^{2}(\text{g}\text{W}^{3}_{\mu}-\text{g}^{\prime} \mathscr{B}_{\mu})^{2}
+%\end{split}
+\end{flalign*}
+\end{block}
+
+
+
+
+\end{frame}
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionenmasse}
+\begin{itemize}
+\item Für die Fermionenmasse betrachten wir den Yukawa Term
+\item Beispiel anhand der Quarks, um bei den Leptonen das Neutrinomassenproblem zu umgehen. 
+\item Man verwende dabei eine unitäre Eichung gemäß $\Phi^{\dagger}\text{Q}_{\text{L}}=\left(  0, \frac{v+h}{\sqrt{2}} \right)\left( \begin{array}{c} \text{u}_{\text{L}}\\ \text{d}_{\text{L}} \end{array}\right) $
+\end{itemize}
+\begin{block}{Yukawa Term}
+\begin{equation*}
+\mathscr{L}_{\text{Yukawa}}\supset -[\text{y}_{\text{d}}\overline{\text{d}_{\text{R}}} \Phi^{\dagger}\text{Q}_{\text{L}}+\text{y}_{\text{d}}^{*} \overline{\text{Q}_{\text{L}}}\Phi \text{d}_{\text{R}}]
+\end{equation*}
+\end{block}
+\begin{itemize}
+\item Damit erhalten wir für unser Beispiel (quadratischer Term gibt wieder Masse an)
+\end{itemize}
+\begin{equation*}
+\mathscr{L}_{\text{Yukawa}}\supset -\frac{\text{y}_{\text{d}}v}{\sqrt{2}}\overline{\text{d}} \text{d} - \frac{\text{y}_{\text{d}}}{\sqrt{2}}h\overline{\text{d}} \text{d} 
+\end{equation*}
+\end{frame}
+
+\begin{frame}
+\frametitle{SM Wiederholung - Fermionenmasse}
+\begin{itemize}
+\item Um die Masse des up Quarks zu bekommen, muss in unitärer Eichung die Kopplung mit diesem stattfinden können $\rightarrow$ Verwendung des konjugierten Higgs Skalars in unitärer Eichung
+\end{itemize}
+ \begin{equation*}
+ \tilde{\Phi}=\left( \begin{array}{c} \Phi^{0*}\\ -\Phi^{+*} \end{array}\right)=\left( \begin{array}{c}  \frac{v+h}{\sqrt{2}}\\ 0 \end{array}\right)
+ \end{equation*}
+ \begin{itemize}
+\item Vorgehensweise gilt für die einzelnen Generationen von Quarks, SM besitzt jedoch 3 von ihnen $\rightarrow$ Allgemeine Form des Yukawa Anteils (Nur für Quarks, entsprechend müsste für Leptonen ein Term addiert werden)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{SM Wiederholung - Fermionenmasse}
+\begin{block}{Yukawa Term - Quarks}
+\begin{equation*}
+\mathscr{L}_{\text{Yukawa}}^{\text{q}}=- \sum_{i=1}^{3} \sum_{j=1}^{3} [\text{y}^{\text{u}}_{ij}\overline{\text{u}_{\text{Ri}}} \tilde{\Phi}^{\dagger}\text{Q}_{\text{Lj}}+\text{y}^{\text{d}}_{ij} \overline{\text{d}_{\text{Ri}}}\Phi^{\dagger} \text{Q}_{\text{Lj}}]+h.c.
+\end{equation*}
+\end{block}
+\textcolor{Blue}{$\text{y}^{\text{u}}_{ij}$: Yukawa Matrix, $\text{Q}_{\text{Lj}}$, $\text{u}_{\text{Ri}}$ und $\text{d}_{\text{Ri}}$ steht für die drei Generationen wobei $j \in [1,3]$.}
+
+\begin{itemize}
+\item Allgemeiner quark Yukawa Anteil wollen wir wieder in eine Form der Massenmatrizen umschreiben
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Motivation zu Erweiterten Higgs Sektoren}
+\begin{itemize}
+\item Wir haben in der Theorie alle Massen berechnet 
+\item Aus Lagrange konnten wir auch alle theoretisch möglichen WW ablesen 
+\item Mit diesen Größen können nun Zerfallsbreiten, Wirkungsquerschnitte und Verzweigungsverhältnisse berechnet werden
+\item Gibt es nun experimentelle Abweichungen von den Vorhersagen $\rightarrow$ Erweiterung
+\item Erweiterung die Randbedingung und Symmetrie des SM gehorcht aber zusätzliche Zerfälle, WW erlauben würde $\rightarrow$ Bestätigung durch Experiment 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}
+\begin{itemize}
+\item Eigenschaften die das SM von Grund auf hat, aber in Erweiterung nicht fehlen dürfen: minimale Flavor Verletzung sowie eine händige $\text{SU}(2)_L$ Symmetrie
+\item  Konsequenz der fehlenden minimalen Flavor Verletzung wird anhand vom 2HDM gezeigt
+\end{itemize}
+\begin{block}{Higgs Dupletts des 2HDM Modells }
+\begin{equation*}
+\Phi_{1}=\left( \begin{array}{c} \Phi^{+}_{1}\\ \Phi^{0}_{1} \end{array}\right)=\left( \begin{array}{c}\Phi^{+}_{1} \\  \frac{h_{1}+v_{1}+ia_{1}}{\sqrt{2}}\end{array}\right) ; \Phi_{2}=\left( \begin{array}{c}\Phi^{+}_{2} \\  \frac{h_{2}+v_{2}+ia_{2}}{\sqrt{2}} \end{array}\right) 
+\end{equation*}
+\end{block}
+\textcolor{Blue}{Die geladenen Komponenten entsprechen zwei komplexen skalaren, zusätzlich gibt es zwei reelle CP-gerade Skalare $h_{1},h_{2}$ sowie zwei CP-ungerade Skalare $a_{1},a_{2}$. }
+\end{frame}
+
+
+
+\begin{frame}[t]
+\frametitle{2HDM - Finde Goldstonebosonen}
+\begin{itemize}
+\item Angenommen unser Higgs Potential hat folgendene Form
+\end{itemize}
+\begin{equation*}
+\begin{split}
+\text{V}=m_{11}^{2} \Phi_{1}^{\dagger}\Phi_{1}+m_{22}^{2} \Phi_{2}^{\dagger}\Phi_{2} -m_{12}^{2}( \Phi_{1}^{\dagger}\Phi_{2} +\Phi_{1}^{\dagger}\Phi_{2}) \\+ \frac{1}{2} \lambda_{1} (\Phi_{1}^{\dagger}\Phi_{1})^{2}+ \frac{1}{2} \lambda_{2} (\Phi_{2}^{\dagger}\Phi_{2})^{2}+ \lambda_{3}( \Phi_{1}^{\dagger}\Phi_{1})(\Phi_{2}^{\dagger}\Phi_{2} ) \\+\lambda_{4}( \Phi_{1}^{\dagger}\Phi_{2})(\Phi_{2}^{\dagger}\Phi_{1} ) +\frac{1}{2} \lambda_{5}[( \Phi_{1}^{\dagger}\Phi_{2})^{2}+(\Phi_{2}^{\dagger}\Phi_{1} )^{2}]
+\end{split}
+\end{equation*}
+\begin{itemize}
+\item Schreibe Potential in voller Form aus um Interaktionsterme und Massenmatrizen identifizieren zu können 
+\end{itemize} 
+\end{frame}
+
+\begin{frame}{2HDM - Finde Goldstonebosonen}
+\begin{itemize}
+\item Bringe Potential in Form der allgemeinen Massenmatrizen
+ \end{itemize}
+ \begin{block}{Massenmatrizen Form}
+ \begin{equation*}
+ \begin{split}
+\text{V}=\left( \begin{array}{c} \Phi^{+}_{1}\\ \Phi^{+}_{2} \end{array}\right)^{\dagger} \begin{pmatrix} M_{11,\phi} & M_{12,\Phi} \\  M_{21,\phi} & M_{22,\Phi}\end{pmatrix} \left( \begin{array}{c} \Phi^{+}_{1}\\ \Phi^{+}_{2} \end{array}\right)
+\\
++\frac{1}{2}\left( \begin{array}{c} a_{1}\\ a_{2} \end{array}\right)^{\dagger} \begin{pmatrix} M_{11,a} & M_{12,a} \\  M_{21,a} & M_{22,a}\end{pmatrix} \left( \begin{array}{c}a_{1}\\ a_{2} \end{array}\right)
+\\
++\frac{1}{2}\left( \begin{array}{c} h_{1}\\ h_{2} \end{array}\right)^{\dagger} \begin{pmatrix} M_{11,h} & M_{12,h} \\  M_{21,h} & M_{22,h}\end{pmatrix} \left( \begin{array}{c}h_{1}\\ h_{2} \end{array}\right) 
+\\
++ \text{tadpole}+\text{interaktionen}
+\end{split}
+\end{equation*} 
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}[t]
+\frametitle{2HDM - Finde Goldstonebosonen}
+\begin{itemize}
+\item Diagonalisierung der Massenmatrizen liefert Massenquadrate und Transformationsmatrix um Masseneigenzustände zu erhalten
+\end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{2HDM - Eichboson Massenerzeugung}
+\begin{itemize}
+\item W und Z Bosonen erhalten Bedingungen durch beide Higgs Dupletts im Eichkinetischen Term 
+\end{itemize}
+\begin{block}{Eichkinetischer Term}
+\begin{align*}
+%\begin{split}
+\mathscr{L}_{\text{Eichkin}} &\supset (\mathscr{D}_{\mu}\Phi_{1})^{\dagger}(\mathscr{D}^{\mu}\Phi_{1})+(\mathscr{D}_{\mu}\Phi_{2})^{\dagger}(\mathscr{D}^{\mu}\Phi_{2}) \\
+&= \frac{1}{2} (\partial_{\mu}h_{1})^{\dagger}(\partial^{\mu}h_{1})+\frac{1}{2}(\partial_{\mu}h_{2})^{\dagger}(\partial^{\mu}h_{2}) \\
+&+\frac{1}{4} \text{g}^2 [(v_{1}+h_{1})^{2}+(v_{2}+h_{2})^{2}]\text{W}_{\mu}^{+}\text{W}^{-\mu}\\
+&+\frac{1}{8} (\text{g}^{2}+\text{g}^{\prime2}) [(v_{1}+h_{1})^{2}+(v_{2}+h_{2})^{2}]\text{Z}_{\mu}\text{Z}^{\mu}
+%\end{split}
+\end{align*}
+\end{block}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{2HDM -Fermion Massenerzeugung}
+\begin{block}{Yukawa Kopplungen}
+\begin{align*}
+%\begin{split}
+\mathscr{L}_{\text{Yukawa}}^{\text{l,q}}=&- \sum_{i=1}^{3} \sum_{j=1}^{3} [\text{y}^{\text{u1}}_{ij}\overline{\text{u}_{\text{Ri}}} \tilde{\Phi_{1}}^{\dagger}\text{Q}_{\text{Lj}}+\text{y}^{\text{d1}}_{ij} \overline{\text{d}_{\text{Ri}}}\Phi_{1}^{\dagger} \text{Q}_{\text{Lj}}+\text{y}^{\text{l1}}_{ij} \overline{\text{e}_{\text{Ri}}}\Phi_{1}^{\dagger} \text{L}_{\text{Lj}}]+h.c.\\
+&- \sum_{i=1}^{3} \sum_{j=1}^{3} [\text{y}^{\text{u2}}_{ij}\overline{\text{u}_{\text{Ri}}} \tilde{\Phi_{2}}^{\dagger}\text{Q}_{\text{Lj}}+\text{y}^{\text{d2}}_{ij} \overline{\text{d}_{\text{Ri}}}\Phi_{2}^{\dagger} \text{Q}_{\text{Lj}}+\text{y}^{\text{l2}}_{ij} \overline{\text{e}_{\text{Ri}}}\Phi_{2}^{\dagger} \text{L}_{\text{Lj}}]+h.c.
+%\end{split}
+\end{align*}
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{2HDM -Fermion Massenerzeugung}
+\begin{itemize}
+\item Wir haben jetzt 6 komplexe Yukawa matrizen und nicht mehr 3 wie im SM 
+\end{itemize}
+\begin{block}{Massenmatrizen - Quarks }
+\begin{equation*}
+\begin{split}
+\mathscr{L}_{\text{Yukawa}}^{\text{l,q}}\supset \mathscr{L}_{\text{Yukawa}}^{\text{down}} =&-(\text{y}^{\text{d1}}_{ij}\Phi_{1}^{\dagger}+\text{y}^{\text{d2}}_{ij}\Phi_{2}^{\dagger})\overline{\text{d}_{\text{Ri}}}\text{Q}_{\text{Lj}} +h.c. \\
+\rightarrow &-(\text{y}^{\text{d1}}_{ij}\frac{v_{1}}{\sqrt{2}}+\text{y}^{\text{d2}}_{ij}\frac{v_{2}}{\sqrt{2}})\overline{\text{d}_{\text{Ri}}}\text{d}_{\text{Lj}} +h.c. 
+\end{split}
+\end{equation*}
+\end{block}
+
+\begin{itemize}
+\item Man kann wie im SM die down Typ Massenmatrix direkt ablesen und diagonalisieren, aber der Unterchied ist jetzt, dass die diagonalisierung der Massenmatrix  im allgemeinen nicht mehr die yukawa Matrizen diagonaliosiert 
+\end{itemize}
+\end{frame}
+\begin{frame}[t]
+\frametitle{2HDM -Fermion Massenerzeugung}
+\begin{itemize}
+
+\item Warum ist das ein Problem?
+
+
+
+\item Es gibt zwei Lösungsansätze um die FCNCs im 2HDM zu verhindern in dem man minimale Flavor Verletzung wiedereinführt
+\item Natürliche Flavor Erhaltung
+\item Yukawa Ausgleich 
+\end{itemize}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Zusammenfassung}
+\begin{itemize}
+\item Erweiterte Higgs Sektoren können sowohl aus experimenteller als auch aus theoretischer Sicht sinnvoll sein
+\item Bei Erweiterungen sind Randbedingungen durch experimentelle Erkenntnisse gegeben 
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Quellen}
+\renewcommand*{\bibfont}{\tiny}
+
+
+\section{Wiederholung SM}
+\subsection{Wiederholung Eichbosonensektor}
+\subsection{Wiederholung Fermionsektor}
+\subsection{Wiederholung Higgssektor}
+\section{Erweiterung des SM Higgs Sektors am Beispiel des 2HDM}
+\subsection{Goldsone Bosonen}
+\subsection{Eichbosonen Massenerzeugung}
+\subsection{Fermionen Massenerzeugung und FCNCs}
+
+\nocite{*}
+
+\printbibliography
+
+
+\end{frame}
+
+ \end{document}
