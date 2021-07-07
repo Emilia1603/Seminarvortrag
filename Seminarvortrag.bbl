@@ -18,24 +18,27 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
+  \datalist[entry]{nyt/global//global/global}
     \entry{5}{article}{}
       \name{author}{3}{}{%
-        {{hash=d07ccc985391d63965336b61c6d0c6f6}{%
+        {{uniquename=0,uniquepart=base,hash=d07ccc985391d63965336b61c6d0c6f6}{%
            family={Altenkamp},
            familyi={A\bibinitperiod},
            given={Lukas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=6d170f89d5d6ca25a48b0cf080b82b4e}{%
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6d170f89d5d6ca25a48b0cf080b82b4e}{%
            family={Dittmaier},
            familyi={D\bibinitperiod},
            given={Stefan},
-           giveni={S\bibinitperiod}}}%
-        {{hash=da6cff527822cac179aa5ec7642ce63c}{%
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=da6cff527822cac179aa5ec7642ce63c}{%
            family={Rzehak},
            familyi={R\bibinitperiod},
            given={Heidi},
-           giveni={H\bibinitperiod}}}%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
@@ -57,6 +60,7 @@
       \field{title}{Renormalization schemes for the Two-Higgs-Doublet Model and applications to h $\rightarrow$ {WW}/{ZZ} $\rightarrow$ 4 fermions}
       \field{volume}{2017}
       \field{year}{2017}
+      \true{nocite}
       \verb{doi}
       \verb 10.1007/jhep09(2017)134
       \endverb
@@ -67,129 +71,14 @@
       \verb https://doi.org/10.1007%2Fjhep09%282017%29134
       \endverb
     \endentry
-    \entry{1}{article}{}
-      \name{author}{5}{}{%
-        {{hash=6778d46f70ad9217700619157d81aca9}{%
-           family={Barger},
-           familyi={B\bibinitperiod},
-           given={Vernon},
-           giveni={V\bibinitperiod}}}%
-        {{hash=002786261d9a888b7c2ba1aecca24144}{%
-           family={Langacker},
-           familyi={L\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=2dcc24ad7e61a1ab0cfcdae3849905b1}{%
-           family={McCaskey},
-           familyi={M\bibinitperiod},
-           given={Mathew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=787fea7fc57152365d5467834f107783}{%
-           family={Ramsey-Musolf},
-           familyi={R\bibinithyphendelim M\bibinitperiod},
-           given={Michael\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=0468155a9bd41fcf461d2cf45ad8b82e}{%
-           family={Shaughnessy},
-           familyi={S\bibinitperiod},
-           given={Gabe},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society ({APS})}%
-      }
-      \strng{namehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{fullhash}{cf2801b59825694bf18ba4091462e80a}
-      \strng{bibnamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authorbibnamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authornamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authorfullhash}{cf2801b59825694bf18ba4091462e80a}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review D}
-      \field{month}{2}
-      \field{number}{3}
-      \field{title}{{CERN} {LHC} phenomenology of an extended standard model with a real scalar singlet}
-      \field{volume}{77}
-      \field{year}{2008}
-      \verb{doi}
-      \verb 10.1103/physrevd.77.035005
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1103%2Fphysrevd.77.035005
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1103%2Fphysrevd.77.035005
-      \endverb
-    \endentry
-    \entry{2}{article}{}
-      \name{author}{5}{}{%
-        {{hash=6778d46f70ad9217700619157d81aca9}{%
-           family={Barger},
-           familyi={B\bibinitperiod},
-           given={Vernon},
-           giveni={V\bibinitperiod}}}%
-        {{hash=002786261d9a888b7c2ba1aecca24144}{%
-           family={Langacker},
-           familyi={L\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=2dcc24ad7e61a1ab0cfcdae3849905b1}{%
-           family={McCaskey},
-           familyi={M\bibinitperiod},
-           given={Mathew},
-           giveni={M\bibinitperiod}}}%
-        {{hash=68084636799ff2979dd03915954c3253}{%
-           family={Ramsey-Musolf},
-           familyi={R\bibinithyphendelim M\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0468155a9bd41fcf461d2cf45ad8b82e}{%
-           family={Shaughnessy},
-           familyi={S\bibinitperiod},
-           given={Gabe},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society ({APS})}%
-      }
-      \strng{namehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{fullhash}{7cedd582655326aa5730c4cc769c08a9}
-      \strng{bibnamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authorbibnamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authornamehash}{f87f9771a29d60d474d45684ad756ba5}
-      \strng{authorfullhash}{7cedd582655326aa5730c4cc769c08a9}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review D}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Complex singlet extension of the standard model}
-      \field{volume}{79}
-      \field{year}{2009}
-      \verb{doi}
-      \verb 10.1103/physrevd.79.015018
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1103%2Fphysrevd.79.015018
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1103%2Fphysrevd.79.015018
-      \endverb
-    \endentry
     \entry{7}{article}{}
       \name{author}{1}{}{%
-        {{hash=d7337d5e5ed42d46811df0fa6a3c3242}{%
+        {{uniquename=0,uniquepart=base,hash=d7337d5e5ed42d46811df0fa6a3c3242}{%
            family={Gunion},
            familyi={G\bibinitperiod},
            given={John\bibnamedelima F.},
-           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{d7337d5e5ed42d46811df0fa6a3c3242}
       \strng{fullhash}{d7337d5e5ed42d46811df0fa6a3c3242}
@@ -203,6 +92,8 @@
       \field{labeltitlesource}{title}
       \field{abstract}{I give a brief overview of the motivations for and experimental probes of extended Higgs sectors containing more than the single Higgs doublet field of the Standard Model.}
       \field{title}{Extended Higgs Sectors}
+      \field{year}{2002}
+      \true{nocite}
       \verb{eprint}
       \verb hep-ph/0212150
       \endverb
@@ -215,21 +106,24 @@
     \endentry
     \entry{3}{article}{}
       \name{author}{3}{}{%
-        {{hash=ce2c27c1f1a15b6873f19c53566a5699}{%
+        {{uniquename=0,uniquepart=base,hash=ce2c27c1f1a15b6873f19c53566a5699}{%
            family={Gupta},
            familyi={G\bibinitperiod},
            given={Rick\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=da6cff527822cac179aa5ec7642ce63c}{%
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=da6cff527822cac179aa5ec7642ce63c}{%
            family={Rzehak},
            familyi={R\bibinitperiod},
            given={Heidi},
-           giveni={H\bibinitperiod}}}%
-        {{hash=0579094237e4078438f80c948b7df94f}{%
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=0579094237e4078438f80c948b7df94f}{%
            family={Wells},
            familyi={W\bibinitperiod},
            given={James\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {American Physical Society ({APS})}%
@@ -250,6 +144,7 @@
       \field{title}{How well do we need to measure Higgs boson couplings?}
       \field{volume}{86}
       \field{year}{2012}
+      \true{nocite}
       \verb{doi}
       \verb 10.1103/physrevd.86.095001
       \endverb
@@ -260,13 +155,60 @@
       \verb https://doi.org/10.1103%2Fphysrevd.86.095001
       \endverb
     \endentry
+    \entry{1}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=a834041850ddf2def9e6eb079ebd65d3}{%
+           family={Isidori},
+           familyi={I\bibinitperiod},
+           given={Gino},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eeafb4957a9c7a841e641f1b5a074915}{%
+           family={Straub},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \strng{fullhash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \strng{bibnamehash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \strng{authorbibnamehash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \strng{authornamehash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \strng{authorfullhash}{7409e9bea0515a4074f14fc8b6693dd4}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The European Physical Journal C}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Minimal flavour violation and beyond}
+      \field{volume}{72}
+      \field{year}{2012}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-012-2103-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1140%2Fepjc%2Fs10052-012-2103-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1140%2Fepjc%2Fs10052-012-2103-1
+      \endverb
+    \endentry
     \entry{4}{article}{}
       \name{author}{1}{}{%
-        {{hash=c158e4fb43ce407fc5dbbfc1151744e1}{%
+        {{uniquename=0,uniquepart=base,hash=c158e4fb43ce407fc5dbbfc1151744e1}{%
            family={Logan},
            familyi={L\bibinitperiod},
            given={Heather\bibnamedelima E.},
-           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
       }
       \strng{namehash}{c158e4fb43ce407fc5dbbfc1151744e1}
       \strng{fullhash}{c158e4fb43ce407fc5dbbfc1151744e1}
@@ -282,6 +224,7 @@
       \field{month}{06}
       \field{title}{TASI 2013 lectures on Higgs physics within and beyond the Standard Model}
       \field{year}{2014}
+      \true{nocite}
       \verb{eprint}
       \verb 1406.1786
       \endverb
@@ -294,11 +237,12 @@
     \endentry
     \entry{6}{article}{}
       \name{author}{1}{}{%
-        {{hash=43486dda9fc63e65e72f2a3e2c106f22}{%
+        {{uniquename=0,uniquepart=base,hash=43486dda9fc63e65e72f2a3e2c106f22}{%
            family={Steggemann},
            familyi={S\bibinitperiod},
            given={Jan},
-           giveni={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {Annual Reviews}%
@@ -319,6 +263,7 @@
       \field{title}{Extended Scalar Sectors}
       \field{volume}{70}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{197\bibrangedash 223}
       \range{pages}{27}
       \verb{doi}
