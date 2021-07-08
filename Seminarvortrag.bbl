@@ -71,6 +71,52 @@
       \verb https://doi.org/10.1007%2Fjhep09%282017%29134
       \endverb
     \endentry
+    \entry{2}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=82b6e353dc84a901c43d47c8a96bb827}{%
+           family={Englert},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3ac21375f75f40f8eabab8128c8cfdd6}{%
+           family={Brout},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=630b0280008fd36896a000baa05c7579}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{fullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{bibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorbibnamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authornamehash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{authorfullhash}{c1dc9fb1a07d4fc62bc5f78904256007}
+      \strng{editorbibnamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editornamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editorfullhash}{630b0280008fd36896a000baa05c7579}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Broken Symmetry and the Mass of Gauge Vector Mesons}}
+      \field{volume}{13}
+      \field{year}{1964}
+      \true{nocite}
+      \field{pages}{321\bibrangedash 323}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.13.321
+      \endverb
+    \endentry
     \entry{7}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=d7337d5e5ed42d46811df0fa6a3c3242}{%
@@ -155,6 +201,98 @@
       \verb https://doi.org/10.1103%2Fphysrevd.86.095001
       \endverb
     \endentry
+    \entry{10}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=fa48aa499dcf3937690622de5501ec81}{%
+           family={Guralnik},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d67b74ee7bea81b882b2589ff0d0d020}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1883efffc08bdae3bc040fa63579aa40}{%
+           family={Kibble},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi W.\bibnamedelimi B.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=630b0280008fd36896a000baa05c7579}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{fullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{bibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorbibnamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authornamehash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{authorfullhash}{41f0c66c2adcbc541746a2fb2cfdf2df}
+      \strng{editorbibnamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editornamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editorfullhash}{630b0280008fd36896a000baa05c7579}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Global Conservation Laws and Massless Particles}}
+      \field{volume}{13}
+      \field{year}{1964}
+      \true{nocite}
+      \field{pages}{585\bibrangedash 587}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.13.585
+      \endverb
+    \endentry
+    \entry{9}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=3e19a08b8763d812b642d1d6654aa521}{%
+           family={Higgs},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=630b0280008fd36896a000baa05c7579}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{fullhash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{bibnamehash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{authorbibnamehash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{authornamehash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{authorfullhash}{3e19a08b8763d812b642d1d6654aa521}
+      \strng{editorbibnamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editornamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editorfullhash}{630b0280008fd36896a000baa05c7579}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{Broken Symmetries and the Masses of Gauge Bosons}}
+      \field{volume}{13}
+      \field{year}{1964}
+      \true{nocite}
+      \field{pages}{508\bibrangedash 509}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.13.508
+      \endverb
+    \endentry
     \entry{1}{article}{}
       \name{author}{2}{}{%
         {{uniquename=0,uniquepart=base,hash=a834041850ddf2def9e6eb079ebd65d3}{%
@@ -199,6 +337,46 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1140%2Fepjc%2Fs10052-012-2103-1
+      \endverb
+    \endentry
+    \entry{8}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bf88f0f2f3ace26d4fc1e8306ead44af}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={T.\bibnamedelimi D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0d99b4e7b27c89d5fb909a6c22840ce2}{%
+           family={Feinberg},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{fullhash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{bibnamehash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{authorbibnamehash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{authornamehash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{authorfullhash}{bf88f0f2f3ace26d4fc1e8306ead44af}
+      \strng{editorbibnamehash}{0d99b4e7b27c89d5fb909a6c22840ce2}
+      \strng{editornamehash}{0d99b4e7b27c89d5fb909a6c22840ce2}
+      \strng{editorfullhash}{0d99b4e7b27c89d5fb909a6c22840ce2}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{title}{{A Theory of Spontaneous T Violation}}
+      \field{volume}{8}
+      \field{year}{1973}
+      \true{nocite}
+      \field{pages}{1226\bibrangedash 1239}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.8.1226
       \endverb
     \endentry
     \entry{4}{article}{}
